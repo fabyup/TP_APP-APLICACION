@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cerrajería Segura</title>
+    <link rel="stylesheet" href="codigo.css">
 </head>
 <body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la cerrajería">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="hero">
+        <h1>Cerrajería Segura</h1>
+        <p>24 horas a tu disposición. Apertura de puertas, cambio de cerraduras, y más.</p>
+        <a href="#contacto" class="boton-cta">¡Llámanos ahora!</a>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Apertura de Puertas</h3>
+            <p>Accede rápidamente a tu hogar sin daños.</p>
+        </div>
+        <div class="servicio">
+            <h3>Cambio de Cerraduras</h3>
+            <p>Actualiza la seguridad de tu hogar con cerraduras modernas.</p>
+        </div>
+        <div class="servicio">
+            <h3>Cerrajería Automotriz</h3>
+            <p>Recupera el acceso a tu vehículo sin problemas.</p>
+        </div>
+    </section>
+
+  
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Con más de 10 años de experiencia, en Cerrajería Segura garantizamos un servicio rápido, eficiente y profesional.</p>
+        <p>Nuestra misión es brindarte tranquilidad en todo momento con soluciones personalizadas para cada situación.</p>
+    </section>
+
+   
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Teléfono: <a href="tel:+5491123456789">+54 9 11 2345-6789</a></p>
+        <p>Dirección: Av. Seguridad 123, Buenos Aires</p>
+    </section>
+
+    
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Cerrajería Segura. Todos los derechos reservados.</p>
+    </footer>
     
 </body>
 </html>
