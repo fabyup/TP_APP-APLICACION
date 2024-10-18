@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000;
 }
 
 header {
-    background-color: #333;
+    background-color: #000;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -26,11 +26,14 @@ header nav ul li a {
 }
 
 .hero {
-    background-color: #007bff;
-    color: white;
+    background-color: #000;
+    color: #0000ff;
     text-align: center;
     padding: 50px 20px;
+    font-weight: 5px;
 }
+
+
 
 .boton-cta {
     background-color: #28a745;
@@ -40,12 +43,24 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-section {
+.contenedor {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+section h1 {
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 15px;
 }
 
 footer {
